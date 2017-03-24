@@ -20,7 +20,7 @@ public class SampleThreeFlatMap {
 
         // re-open dataStream
         dataStream = Arrays.stream(data);
-        
+
         // But I want all the individual strings in a stream
         Stream<String> stringStream = dataStream.flatMap(x -> Arrays.stream(x));
         stringStream.forEach(System.out::println);

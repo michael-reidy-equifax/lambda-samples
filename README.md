@@ -10,7 +10,12 @@ IntelliJ
 
 https://www.jetbrains.com/idea/download/#section=windows
 
+or
+
 Eclipse 
 
 http://www.eclipse.org/downloads/
 
+You may also wish need to install Maven
+
+https://maven.apache.org/
